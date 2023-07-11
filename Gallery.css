@@ -1,0 +1,38 @@
+.u-slider-container {
+  position: relative;
+  width: 100%;
+  height: 1000px;
+  overflow: hidden;
+
+}
+
+.u-slider-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 650px;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.u-slider-image:first-child {
+  opacity: 1;
+}
+
+.u-slider-arrow {
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 1;
+  color: aliceblue;
+}
+
+.u-slider-arrow--left {
+  left: 10px;
+}
+
+.u-slider-arrow--right {
+  right: 10px;
+}
